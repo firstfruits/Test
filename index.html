@@ -18,7 +18,26 @@
 <body class="body">
   <div class="container w-container">
     <div class="w-form">
-	  <form name="email-form" method="POST" netlify><label for="name" class="field-label">Name</label><input type="text" id="name" name="name" data-name="Name" maxlength="256" class="w-input"><label for="email" class="field-label-2">Email Address</label><input type="email" class="w-input" maxlength="256" name="email" data-name="Email" id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="w-button"></form>
+	  <form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       <div class="w-form-done">
         <div>Thank you! Your submission has been received!</div>
       </div>
