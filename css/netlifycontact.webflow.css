@@ -5,6 +5,8 @@
 }
 
 .container {
+  padding-right: 100px;
+  padding-left: 100px;
   border-color: #000;
   background-color: transparent;
 }
@@ -15,4 +17,27 @@
 
 .field-label-2 {
   color: #fff;
+}
+
+.label {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-field {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 0px 4px 0px 10px;
+  color: #000;
+}
+
+.button {
+  padding: 10px 30px;
+  border: 1px solid #bb0b9f;
+  border-radius: 5px;
+  background-color: #bb0b9f;
+  font-size: 28px;
+  line-height: 28px;
 }
