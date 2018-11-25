@@ -26,6 +26,10 @@
   font-weight: 400;
 }
 
+.label.hidden {
+  display: none;
+}
+
 .text-field {
   margin-top: 0px;
   margin-bottom: 20px;
@@ -40,4 +44,8 @@
   background-color: #bb0b9f;
   font-size: 28px;
   line-height: 28px;
+}
+
+.text-field-2 {
+  display: none;
 }
