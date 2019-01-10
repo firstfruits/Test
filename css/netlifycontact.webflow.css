@@ -49,3 +49,7 @@
 .text-field-2 {
   display: none;
 }
+
+.captcha {
+  margin-bottom: 20px;
+}
